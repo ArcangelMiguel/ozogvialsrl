@@ -36,3 +36,31 @@ C:\Users\OZOG VIAL SRL\source\repos\ozogvial\Clase\obj\Debug\Clases.csproj.CoreC
 C:\Users\OZOG VIAL SRL\source\repos\ozogvial\Clase\obj\Debug\Clases.csproj.CopyComplete
 C:\Users\OZOG VIAL SRL\source\repos\ozogvial\Clase\obj\Debug\Clase.dll
 C:\Users\OZOG VIAL SRL\source\repos\ozogvial\Clase\obj\Debug\Clase.pdb
+C:\Users\migue\Source\Repos\ozogvial\Clase\bin\Debug\Clase.dll
+C:\Users\migue\Source\Repos\ozogvial\Clase\bin\Debug\Clase.pdb
+C:\Users\migue\Source\Repos\ozogvial\Clase\bin\Debug\Conex.dll
+C:\Users\migue\Source\Repos\ozogvial\Clase\bin\Debug\System.Buffers.dll
+C:\Users\migue\Source\Repos\ozogvial\Clase\bin\Debug\System.Memory.dll
+C:\Users\migue\Source\Repos\ozogvial\Clase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\migue\Source\Repos\ozogvial\Clase\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\migue\Source\Repos\ozogvial\Clase\bin\Debug\Conex.pdb
+C:\Users\migue\Source\Repos\ozogvial\Clase\obj\Debug\Clases.csproj.AssemblyReference.cache
+C:\Users\migue\Source\Repos\ozogvial\Clase\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\migue\Source\Repos\ozogvial\Clase\obj\Debug\Clase.dll
+C:\Users\migue\Source\Repos\ozogvial\Clase\obj\Debug\Clase.pdb
+C:\Users\migue\source\repos\ozogvial\Clase\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\migue\source\repos\ozogvial\Clase\obj\Debug\Clases.csproj.Up2Date
+C:\Users\migue\source\repos\ozogvialsrl\Clase\bin\Debug\Clase.dll
+C:\Users\migue\source\repos\ozogvialsrl\Clase\bin\Debug\Clase.pdb
+C:\Users\migue\source\repos\ozogvialsrl\Clase\bin\Debug\Conex.dll
+C:\Users\migue\source\repos\ozogvialsrl\Clase\bin\Debug\System.Memory.dll
+C:\Users\migue\source\repos\ozogvialsrl\Clase\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\migue\source\repos\ozogvialsrl\Clase\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\migue\source\repos\ozogvialsrl\Clase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\migue\source\repos\ozogvialsrl\Clase\bin\Debug\System.Buffers.dll
+C:\Users\migue\source\repos\ozogvialsrl\Clase\bin\Debug\Conex.pdb
+C:\Users\migue\source\repos\ozogvialsrl\Clase\obj\Debug\Clases.csproj.AssemblyReference.cache
+C:\Users\migue\source\repos\ozogvialsrl\Clase\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\migue\source\repos\ozogvialsrl\Clase\obj\Debug\Clases.csproj.Up2Date
+C:\Users\migue\source\repos\ozogvialsrl\Clase\obj\Debug\Clase.dll
+C:\Users\migue\source\repos\ozogvialsrl\Clase\obj\Debug\Clase.pdb

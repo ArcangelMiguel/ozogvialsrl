@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Clase;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,13 +18,6 @@ namespace Gest
             InitializeComponent();
         }
 
-        private void partesDiariosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmParteDiario fpd = new frmParteDiario();
-            fpd.MdiParent = this;
-            fpd.Show();
-        }
-
         private void novedadesEquiposToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmNovedadEquipo fne = new frmNovedadEquipo();
@@ -36,20 +30,6 @@ namespace Gest
             Application.Exit();
         }
 
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            frmMaterial fmat = new frmMaterial();
-            fmat.MdiParent = this;
-            fmat.Show();
-        }
-
-        private void toolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-            frmProveedor fpr = new frmProveedor();
-            fpr.MdiParent = this;
-            fpr.Show();
-        }
-
         private void remitosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmRemitos frem = new frmRemitos();
@@ -57,9 +37,16 @@ namespace Gest
             frem.Show();
         }
 
-        private void emitirReciboComunToolStripMenuItem_Click(object sender, EventArgs e)
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            frmRecibos frec = new frmRecibos();
+            frmComitente frec = new frmComitente();
+            frec.MdiParent = this;
+            frec.Show();
+        }
+
+        private void tiposToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEstCivil frec = new frmEstCivil();
             frec.MdiParent = this;
             frec.Show();
         }

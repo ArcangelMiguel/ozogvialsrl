@@ -71,12 +71,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmBuscaParte.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmBuscaParte.Designer.cs">
-      <DependentUpon>frmBuscaParte.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmHorarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,12 +82,6 @@
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMaterial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMaterial.Designer.cs">
-      <DependentUpon>frmMaterial.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMovEncontrados.cs">
       <SubType>Form</SubType>
@@ -113,23 +101,11 @@
     <Compile Include="frmNuevaObra.Designer.cs">
       <DependentUpon>frmNuevaObra.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmParteDiario.cs">
+    <Compile Include="frmComitente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmParteDiario.Designer.cs">
-      <DependentUpon>frmParteDiario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmProveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmProveedor.Designer.cs">
-      <DependentUpon>frmProveedor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmRecibos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRecibos.Designer.cs">
-      <DependentUpon>frmRecibos.cs</DependentUpon>
+    <Compile Include="frmComitente.Designer.cs">
+      <DependentUpon>frmComitente.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRemitos.cs">
       <SubType>Form</SubType>
@@ -137,26 +113,20 @@
     <Compile Include="frmRemitos.Designer.cs">
       <DependentUpon>frmRemitos.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTipos.cs">
+    <Compile Include="frmEstCivil.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTipos.Designer.cs">
-      <DependentUpon>frmTipos.cs</DependentUpon>
+    <Compile Include="frmEstCivil.Designer.cs">
+      <DependentUpon>frmEstCivil.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <EmbeddedResource Include="frmBuscaParte.resx">
-      <DependentUpon>frmBuscaParte.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmHorarios.resx">
       <DependentUpon>frmHorarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMaterial.resx">
-      <DependentUpon>frmMaterial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMovEncontrados.resx">
       <DependentUpon>frmMovEncontrados.cs</DependentUpon>
@@ -167,20 +137,14 @@
     <EmbeddedResource Include="frmNuevaObra.resx">
       <DependentUpon>frmNuevaObra.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmParteDiario.resx">
-      <DependentUpon>frmParteDiario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmProveedor.resx">
-      <DependentUpon>frmProveedor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRecibos.resx">
-      <DependentUpon>frmRecibos.cs</DependentUpon>
+    <EmbeddedResource Include="frmComitente.resx">
+      <DependentUpon>frmComitente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRemitos.resx">
       <DependentUpon>frmRemitos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTipos.resx">
-      <DependentUpon>frmTipos.cs</DependentUpon>
+    <EmbeddedResource Include="frmEstCivil.resx">
+      <DependentUpon>frmEstCivil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

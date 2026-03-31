@@ -22,14 +22,14 @@ namespace Clases
         private String alta;
         private String baja;
         private String nacimiento;
-        private String telefono;
-        private String correo;
-        private String clave;
-        private int categoria;
+        private String nrn;
+        private String numCBU;        
+        private int idCategoria;
         private String camisa;
         private String pantalon;
         private String zapato;
-        private int estado; 
+        private String estado;
+        private int idEstCivil;
         private String anota;
 
         public int IDEMPLEADO { get => idEmpleado; set => idEmpleado = value; }       
@@ -43,14 +43,14 @@ namespace Clases
         public String ALTA { get => alta; set => alta = value; }
         public String BAJA { get => baja; set => baja = value; }
         public String NACIMIENTO { get => nacimiento; set => nacimiento = value; }
-        public String TELEFONO { get => telefono; set => telefono = value; }
-        public String CORREO { get => correo; set => correo = value; }
-        public String CLAVE { get => clave; set => clave = value; }
-        public int CATEGORIA { get => categoria; set => categoria = value; }
+        public String NRN { get => nrn; set => nrn = value; }
+        public String NUMCBU { get => numCBU; set => numCBU = value; }
+        public int CATEGORIA { get => idCategoria; set =>idCategoria = value; }
         public String CAMISA { get => camisa; set => camisa = value; }
         public String PANTALON { get => pantalon; set => pantalon = value; }
         public String ZAPATO { get => zapato; set => zapato = value; }
-        public int ESTADO { get => estado; set => estado = value; }
+        public String ESTADO { get => estado; set => estado = value; }
+        public int ESTCIVIL { get => idEstCivil; set => idEstCivil = value; }
         public String ANOTA { get => anota; set => anota = value; }
 
 
@@ -62,13 +62,13 @@ namespace Clases
             int valor = 0;
             MySqlConnection connn = new MySqlConnection();
             connn = Accesos.UnaConexion();
-            MySqlCommand cmd = new MySqlCommand(String.Format("INSERT INTO empleado(id_Empleado,apellido,nombre,documento,cuil,direccion,postal,ciudad,provincia,"+
-                                     "alta, baja, nacimiento, telefono, correo, clave, id_Categoria, camisa, pantalon, zapato, id_Estado, anotaciones)" +
-                                     " VALUES ({0},'{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{9}','{10}','{11}','{12}','{13}','{14}'"+
-                                     ",{15},'{16}','{17}','{18}',{19}"+
+            MySqlCommand cmd = new MySqlCommand(String.Format("INSERT INTO empleado(id_Empleado,nombre,documento,cuil,direccion,postal,ciudad,provincia,"+
+                                     "idCategoria, alta, baja, nacimiento, nrn, estado, numCBU, camisa, pantalon, zapato, idEstCivil, anota)" +
+                                     " VALUES ({0},'{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}','{13}',{14},'{15}'"+
+                                     ",'{16}','{17}','{18}',{19},'{20}'"+
                                      ")", rep.IDEMPLEADO, rep.NOMBRE, rep.DOCUMENTO, rep.CUIL, rep.DIRECCION, rep.POSTAL, rep.CIUDAD, rep.PROVINCIA,
-                                     rep.ALTA, rep.BAJA, rep.NACIMIENTO, rep.TELEFONO, rep.CORREO, rep.CLAVE, rep.CATEGORIA, rep.CAMISA, rep.PANTALON, rep.ZAPATO,
-                                     rep.ESTADO, rep.ANOTA), connn);
+                                      rep.CATEGORIA, rep.ALTA, rep.BAJA, rep.NACIMIENTO, rep.NRN, rep.ESTADO, rep.NUMCBU, rep.CAMISA, rep.PANTALON, rep.ZAPATO,
+                                      rep.ESTCIVIL, rep.ANOTA), connn);
 
             valor = cmd.ExecuteNonQuery();
             connn.Close();
