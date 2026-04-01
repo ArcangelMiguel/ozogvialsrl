@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\ozog vial srl\\source\\repos\\ozogvialsrl\\ozogvialsrl\\gest\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\gest\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\ozog vial srl\\source\\repos\\ozogvialsrl\\ozogvialsrl\\gest\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\gest\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\clase\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|solutionrelative:clase\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|c:\\users\\ozog vial srl\\source\\repos\\ozogvialsrl\\ozogvialsrl\\clase\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|solutionrelative:clase\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\ozog vial srl\\source\\repos\\ozogvialsrl\\ozogvialsrl\\gest\\frmmovencontrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmmovencontrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\ozog vial srl\\source\\repos\\ozogvialsrl\\ozogvialsrl\\gest\\frmmovencontrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmmovencontrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\gest\\frmnovedadequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +29,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\ozog vial srl\\source\\repos\\ozogvialsrl\\ozogvialsrl\\gest\\frmnovedadequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmnovedadequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\clase\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|solutionrelative:clase\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +42,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Clase\\Usuario.cs",
+              "RelativeDocumentMoniker": "Clase\\Usuario.cs",
+              "ToolTip": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Clase\\Usuario.cs",
+              "RelativeToolTip": "Clase\\Usuario.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T19:44:10.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmMovEncontrados.cs",
+              "DocumentMoniker": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Gest\\frmMovEncontrados.cs",
+              "RelativeDocumentMoniker": "Gest\\frmMovEncontrados.cs",
+              "ToolTip": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Gest\\frmMovEncontrados.cs",
+              "RelativeToolTip": "Gest\\frmMovEncontrados.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T19:34:54.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMovEncontrados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Gest\\frmMovEncontrados.cs",
+              "RelativeDocumentMoniker": "Gest\\frmMovEncontrados.cs",
+              "ToolTip": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Gest\\frmMovEncontrados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gest\\frmMovEncontrados.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T19:32:05.819Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,7 +90,7 @@
               "RelativeDocumentMoniker": "Gest\\frmLogin.cs",
               "ToolTip": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Gest\\frmLogin.cs",
               "RelativeToolTip": "Gest\\frmLogin.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAEYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-01T17:00:47.085Z",
               "EditorCaption": ""
@@ -59,33 +109,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Clase\\Empleado.cs",
               "RelativeDocumentMoniker": "Clase\\Empleado.cs",
               "ToolTip": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Clase\\Empleado.cs",
               "RelativeToolTip": "Clase\\Empleado.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAIA3wDoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAIA0wDoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-01T13:33:50.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "frmNovedadEquipo.cs",
               "DocumentMoniker": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Gest\\frmNovedadEquipo.cs",
               "RelativeDocumentMoniker": "Gest\\frmNovedadEquipo.cs",
               "ToolTip": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Gest\\frmNovedadEquipo.cs",
               "RelativeToolTip": "Gest\\frmNovedadEquipo.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAmwJUAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAAANkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-01T13:40:29.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "frmNovedadEquipo.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\OZOG VIAL SRL\\source\\repos\\ozogvialsrl\\ozogvialsrl\\Gest\\frmNovedadEquipo.cs",
               "RelativeDocumentMoniker": "Gest\\frmNovedadEquipo.cs",

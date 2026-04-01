@@ -55,5 +55,14 @@ namespace Clase
             dt = ds.Tables[0];
             return dt;
         }
+        public static DataTable verificaUsuario(String us, String ps)
+        {
+            String cmd = "SELECT idUsuario,nombreUsuario,pass FROM usuarios WHERE nombreUsuario='" + us + "' AND pass ='" + ps + "'"; ;
+            // 
+            DataSet ds = Accesos.datos(cmd);
+            DataTable dt = new DataTable();
+            dt = ds.Tables[0];
+            return dt;
+        }
     }
 }
