@@ -64,3 +64,24 @@ C:\Users\migue\source\repos\ozogvialsrl\Clase\obj\Debug\Clases.csproj.CoreCompil
 C:\Users\migue\source\repos\ozogvialsrl\Clase\obj\Debug\Clases.csproj.Up2Date
 C:\Users\migue\source\repos\ozogvialsrl\Clase\obj\Debug\Clase.dll
 C:\Users\migue\source\repos\ozogvialsrl\Clase\obj\Debug\Clase.pdb
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\Clase.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\Clase.pdb
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\Conex.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\MySql.Data.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\Google.Protobuf.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\Zstandard.Net.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\Renci.SshNet.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\System.Buffers.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\Conex.pdb
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\bin\Debug\MySql.Data.xml
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\obj\Debug\Clases.csproj.AssemblyReference.cache
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\obj\Debug\Clases.csproj.Up2Date
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\obj\Debug\Clase.dll
+C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Clase\obj\Debug\Clase.pdb

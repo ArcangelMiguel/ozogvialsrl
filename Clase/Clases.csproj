@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chache\UsuarioCache.cs" />
     <Compile Include="Comitente.cs" />
     <Compile Include="Conversion.cs" />
     <Compile Include="Empleado.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="Recibo.cs" />
     <Compile Include="EstCivil.cs" />
     <Compile Include="Tipologia.cs" />
+    <Compile Include="Usuario.cs" />
     <Compile Include="Validar.cs" />
   </ItemGroup>
   <ItemGroup>

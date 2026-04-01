@@ -155,6 +155,7 @@
             this.btnGuardar.Text = "Guardar  Datos";
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnAgregar
             // 
