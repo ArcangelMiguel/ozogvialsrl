@@ -225,6 +225,7 @@
     <None Include="Resources\GUARDAR16.png" />
     <None Include="Resources\AGREGAR.png" />
     <None Include="Resources\CANCELAR.png" />
+    <None Include="Resources\male-profile-picture_icon-icons.com_68388.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

@@ -48,7 +48,7 @@ namespace Clase
         }
         public static DataTable extraeUsuario()
         {
-            String cmd = "SELECT idUsuario,nombreUsuario,pass FROM usuarios";
+            String cmd = "SELECT idUsuario,nombreUsuario,pass,nombre,apellido,nivel,email FROM usuarios";
             // 
             DataSet ds = Accesos.datos(cmd);
             DataTable dt = new DataTable();
@@ -64,5 +64,15 @@ namespace Clase
             dt = ds.Tables[0];
             return dt;
         }
+        public static DataTable extraeUnUsuario(int orden)
+        {
+            String cmd = "SELECT idUsuario,nombreUsuario,pass,nombre,apellido,nivel,email FROM usuarios WHERE idUsuario=" + orden ;
+            // 
+            DataSet ds = Accesos.datos(cmd);
+            DataTable dt = new DataTable();
+            dt = ds.Tables[0];
+            return dt;
+        }
+
     }
 }

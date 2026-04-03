@@ -46,7 +46,7 @@ namespace Login
             if (txtUsuario.Text == "")
             {
                 txtUsuario.Text = "Usuario";
-                txtUsuario.ForeColor = Color.DimGray;
+                txtUsuario.ForeColor = Color.LightGray;
 
             }
         }
@@ -66,7 +66,7 @@ namespace Login
             if (txtPass.Text == "")
             {
                 txtPass.Text = "Contraseña";
-                txtPass.ForeColor = Color.DimGray;
+                txtPass.ForeColor = Color.LightGray;
                 txtPass.UseSystemPasswordChar = false;
             }
         }
@@ -107,17 +107,27 @@ namespace Login
 
                 if (dt.Rows.Count == 1)
                 {
-                    UsuarioCache.loginName = dt.Rows[0][1].ToString();
-                    UsuarioCache.password = dt.Rows[0][2].ToString();
-                    UsuarioCache.Nombre = dt.Rows[0][3].ToString();
-                    UsuarioCache.Apellido = dt.Rows[0][4].ToString();
-                    UsuarioCache.posicion = dt.Rows[0][5].ToString();
-                    UsuarioCache.email = dt.Rows[0][6].ToString();
+                    String user= dt.Rows[0][1].ToString();
+                    String passw= dt.Rows[0][2].ToString();
 
-                    this.Hide();
+                    if (user.Equals(txtUsuario.Text.Trim()) && passw.Equals(txtPass.Text.Trim()))
+                    {
+                        UsuarioCache.loginName = dt.Rows[0][1].ToString();
+                        UsuarioCache.password = dt.Rows[0][2].ToString();
+                        UsuarioCache.Nombre = dt.Rows[0][3].ToString();
+                        UsuarioCache.Apellido = dt.Rows[0][4].ToString();
+                        UsuarioCache.posicion = dt.Rows[0][5].ToString();
+                        UsuarioCache.email = dt.Rows[0][6].ToString();
 
-                   frmMain fne = new frmMain();
-                   fne.Show();
+                        this.Hide();
+
+                        frmMain fne = new frmMain();
+                        fne.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Los datos son incorrectos");
+                    }
                 }
                 else
                 {

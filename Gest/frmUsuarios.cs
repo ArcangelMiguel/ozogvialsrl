@@ -16,6 +16,7 @@ namespace Gest
         public frmUsuarios()
         {
             InitializeComponent();
+            apertura();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -30,13 +31,49 @@ namespace Gest
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-           
+            alAgregar();
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-
+            apertura();
         }
+
+        //============================== ALGORITMOS DE LIMPIEZA Y PRESENTACION =============================
+
+        private void apertura()
+        {
+            btnAgregar.Enabled = true;
+            btnGuardar.Enabled = false;
+            btnCancelar.Enabled = false;
+            
+            txtNombre.Enabled = false;
+            txtNombre.Text = "Nombre";
+            txtPass.Enabled = false;
+            txtPass.Text = "Contraseña";
+            txtUser.Enabled = false;
+            txtUser.Text = "Usuario";
+            txtApellido.Enabled = false;
+            txtApellido.Text = "Apellido";
+            txtCargo.Enabled = false;
+            txtCargo.Text = "Cargo";
+            txtEmail.Enabled = false;
+            txtEmail.Text = "E-mail";
+        }
+        public void alAgregar()
+        {
+            btnAgregar.Enabled = false;
+            btnGuardar.Enabled = true;
+            btnCancelar.Enabled = true;
+            txtNombre.Enabled = true;
+            txtPass.Enabled = true;
+            txtUser.Enabled = true;
+            txtApellido.Enabled = true;
+            txtCargo.Enabled = true;
+            txtEmail.Enabled = true;
+            
+        }
+        // ==========================================================================
 
         private void txtUser_Enter(object sender, EventArgs e)
         {
@@ -186,8 +223,7 @@ namespace Gest
                     MessageBox.Show("Los datos no se guardaron");
                 }
             }
-            //apertura();
-            // cargadgv();
+            apertura();
         }
     }
 }

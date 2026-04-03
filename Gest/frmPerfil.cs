@@ -1,4 +1,5 @@
 ﻿using Clase;
+using Clases;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,6 +18,22 @@ namespace Gest
         public frmPerfil()
         {
             InitializeComponent();
+            apertura();
+
+            try
+            {
+                DataTable dt = new DataTable();
+                dt = Usuario.extraeUsuario();
+
+                cmbPerfil.DisplayMember = "apellido";
+                cmbPerfil.ValueMember = "idUsuario";
+                cmbPerfil.DropDownStyle = ComboBoxStyle.DropDownList;// impide la edición del dato seleccionado
+                cmbPerfil.DataSource = dt;
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show("Error: " + er.ToString());
+            }
         }
         //--------------- esta rutina es para mover con el mouse el formulario ----------
         [DllImport("user32.dll", EntryPoint = "ReleaseCapture")]
@@ -25,11 +42,42 @@ namespace Gest
         private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
 
         //--------------- termina la rutina ----------
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
+
+        //============================== ALGORITMOS DE LIMPIEZA Y PRESENTACION =============================
+
+        private void apertura()
+        {
+            panel2.Enabled = true;
+            btnGuardar.Enabled = false;
+            btnCancelar.Enabled = true;
+
+            txtNombre.Enabled = false;
+            txtNombre.Text = "Nombre";
+            txtPass.Enabled = false;
+            txtPass.Text = "Contraseña";
+            txtUser.Enabled = false;
+            txtUser.Text = "Usuario";
+            txtApellido.Enabled = false;
+            txtApellido.Text = "Apellido";
+            txtCargo.Enabled = false;
+            txtCargo.Text = "Cargo";
+            txtEmail.Enabled = false;
+            txtEmail.Text = "E-mail";
+        }
+        public void alAgregar()
+        {
+            panel2.Enabled = false;
+            btnGuardar.Enabled = true;
+            btnCancelar.Enabled = true;
+            txtNombre.Enabled = true;
+            txtPass.Enabled = true;
+            txtUser.Enabled = true;
+            txtApellido.Enabled = true;
+            txtCargo.Enabled = true;
+            txtEmail.Enabled = true;
+       }
+        // ==========================================================================
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             try
@@ -68,7 +116,7 @@ namespace Gest
             }
             catch
             {
-                
+
             }
         }
 
@@ -195,6 +243,41 @@ namespace Gest
             // haciendo click en el panel izquierdo, podemos mover el formulario para cualquier parte
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void cmbPerfil_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            int identificador = int.Parse(cmbPerfil.SelectedValue.ToString());
+            DataTable dt = new DataTable();
+            dt = Usuario.extraeUnUsuario(identificador);
+
+            lblUser.Text = dt.Rows[0][1].ToString();
+            lblPass.Text = dt.Rows[0][2].ToString();
+            lblNombre.Text = dt.Rows[0][3].ToString();
+            lblApellido.Text= dt.Rows[0][4].ToString();
+            lblCargo.Text = dt.Rows[0][5].ToString();
+            lblEmail.Text= dt.Rows[0][6].ToString();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            alAgregar();
+            txtUser.Text=lblUser.Text;
+            txtPass.Text=lblPass.Text;
+            txtNombre.Text=lblNombre.Text;
+            txtApellido.Text=lblApellido.Text;
+            txtCargo.Text=lblCargo.Text;
+            txtEmail.Text=lblEmail.Text;
+        }
+
+        private void btnGuardar_Click_1(object sender, EventArgs e)
+        {
+            apertura();
         }
     }
 }
