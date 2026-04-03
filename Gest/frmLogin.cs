@@ -7,7 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;// para mover el formulario
+using System.Runtime.InteropServices;
+using Clase;
+using Clase.Chache;
+using Gest;// para mover el formulario
+
+
 
 namespace Login
 {
@@ -28,7 +33,7 @@ namespace Login
 
         private void txtUsuario_Enter(object sender, EventArgs e)
         {
-            if(txtUsuario.Text =="USUARIO")
+            if(txtUsuario.Text == "Usuario")
             {
                 txtUsuario.Text = "";
                 txtUsuario.ForeColor= Color.LightGray;
@@ -40,7 +45,7 @@ namespace Login
         {
             if (txtUsuario.Text == "")
             {
-                txtUsuario.Text = "USUARIO";
+                txtUsuario.Text = "Usuario";
                 txtUsuario.ForeColor = Color.DimGray;
 
             }
@@ -48,7 +53,7 @@ namespace Login
 
         private void txtPass_Enter(object sender, EventArgs e)
         {
-            if (txtPass.Text == "CONTRASEÑA")
+            if (txtPass.Text == "Contraseña")
             {
                 txtPass.Text = "";
                 txtPass.ForeColor = Color.LightGray;
@@ -60,7 +65,7 @@ namespace Login
         {
             if (txtPass.Text == "")
             {
-                txtPass.Text = "CONTRASEÑA";
+                txtPass.Text = "Contraseña";
                 txtPass.ForeColor = Color.DimGray;
                 txtPass.UseSystemPasswordChar = false;
             }
@@ -92,7 +97,33 @@ namespace Login
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            if(txtPass.Text=="" || txtPass.Text=="Contraseña" || txtUsuario.Text=="" || txtUsuario.Text == "Usuario")
+            {
+                MessageBox.Show("Faltan ingresar datos");
+            }
+            else
+            {
+               DataTable dt= Usuario.verificaUsuario(txtUsuario.Text.Trim(),txtPass.Text.Trim());
 
-        }
+                if (dt.Rows.Count == 1)
+                {
+                    UsuarioCache.loginName = dt.Rows[0][1].ToString();
+                    UsuarioCache.password = dt.Rows[0][2].ToString();
+                    UsuarioCache.Nombre = dt.Rows[0][3].ToString();
+                    UsuarioCache.Apellido = dt.Rows[0][4].ToString();
+                    UsuarioCache.posicion = dt.Rows[0][5].ToString();
+                    UsuarioCache.email = dt.Rows[0][6].ToString();
+
+                    this.Hide();
+
+                   frmMain fne = new frmMain();
+                   fne.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Los datos son incorrectos");
+                }
+            }
+        }        
     }
 }

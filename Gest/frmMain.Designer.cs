@@ -37,6 +37,10 @@
             this.EstCivilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.temasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ingresarNuevoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.movimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.partesDiariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,6 +53,8 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Gray;
+            this.menuStrip1.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.archivosToolStripMenuItem,
             this.movimientosToolStripMenuItem});
@@ -68,9 +74,11 @@
             this.EstCivilToolStripMenuItem,
             this.temasToolStripMenuItem,
             this.toolStripSeparator1,
+            this.toolStripMenuItem4,
+            this.toolStripSeparator2,
             this.salirToolStripMenuItem});
             this.archivosToolStripMenuItem.Name = "archivosToolStripMenuItem";
-            this.archivosToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.archivosToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.archivosToolStripMenuItem.Text = "Archivos";
             // 
             // obrasToolStripMenuItem
@@ -109,12 +117,41 @@
             // 
             this.temasToolStripMenuItem.Name = "temasToolStripMenuItem";
             this.temasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.temasToolStripMenuItem.Text = "Temas";
+            this.temasToolStripMenuItem.Text = "Tipología de Obra";
+            this.temasToolStripMenuItem.Click += new System.EventHandler(this.temasToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ingresarNuevoToolStripMenuItem,
+            this.mantenimientoToolStripMenuItem});
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem4.Text = "Usuarios";
+            // 
+            // ingresarNuevoToolStripMenuItem
+            // 
+            this.ingresarNuevoToolStripMenuItem.Name = "ingresarNuevoToolStripMenuItem";
+            this.ingresarNuevoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ingresarNuevoToolStripMenuItem.Text = "Ingresar Nuevo";
+            this.ingresarNuevoToolStripMenuItem.Click += new System.EventHandler(this.ingresarNuevoToolStripMenuItem_Click);
+            // 
+            // mantenimientoToolStripMenuItem
+            // 
+            this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
+            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
+            this.mantenimientoToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // salirToolStripMenuItem
             // 
@@ -131,19 +168,19 @@
             this.toolStripMenuItem3,
             this.remitosToolStripMenuItem});
             this.movimientosToolStripMenuItem.Name = "movimientosToolStripMenuItem";
-            this.movimientosToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
+            this.movimientosToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
             this.movimientosToolStripMenuItem.Text = "Movimientos";
             // 
             // partesDiariosToolStripMenuItem
             // 
             this.partesDiariosToolStripMenuItem.Name = "partesDiariosToolStripMenuItem";
-            this.partesDiariosToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.partesDiariosToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.partesDiariosToolStripMenuItem.Text = "Partes Diarios";
             // 
             // novedadesEquiposToolStripMenuItem
             // 
             this.novedadesEquiposToolStripMenuItem.Name = "novedadesEquiposToolStripMenuItem";
-            this.novedadesEquiposToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.novedadesEquiposToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.novedadesEquiposToolStripMenuItem.Text = "Novedades Equipos";
             this.novedadesEquiposToolStripMenuItem.Click += new System.EventHandler(this.novedadesEquiposToolStripMenuItem_Click);
             // 
@@ -152,7 +189,7 @@
             this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.emitirReciboComunToolStripMenuItem});
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(178, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(184, 22);
             this.toolStripMenuItem3.Text = "Recibos";
             // 
             // emitirReciboComunToolStripMenuItem
@@ -163,7 +200,7 @@
             // remitosToolStripMenuItem
             // 
             this.remitosToolStripMenuItem.Name = "remitosToolStripMenuItem";
-            this.remitosToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.remitosToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.remitosToolStripMenuItem.Text = "Remitos";
             this.remitosToolStripMenuItem.Click += new System.EventHandler(this.remitosToolStripMenuItem_Click);
             // 
@@ -173,11 +210,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
+            this.ForeColor = System.Drawing.Color.Black;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.Text = "CONTROL DE OBRAS";
+            this.TransparencyKey = System.Drawing.Color.DimGray;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -204,5 +244,9 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem emitirReciboComunToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem ingresarNuevoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoToolStripMenuItem;
     }
 }

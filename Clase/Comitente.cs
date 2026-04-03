@@ -39,7 +39,7 @@ namespace Clase
             return valor;
         }
 
-        public static DataTable extraeComitente()
+        public static DataTable extraeComitente() // extrae todos los comitentes para presentarlos
         {
             String cmd = "SELECT idComit, nombre,domicilio,cuit,condicion FROM comitente";
             // 
@@ -48,7 +48,20 @@ namespace Clase
             dt = ds.Tables[0];
             return dt;
         }
+       
+        
+        public static int modificaComitente(Comitente rep, int orden) // Almacena los datos modificados de un comitente seleccionado
+        {
+            // almacenamos la modificación del movimiento de equipo. 
+            int valor = 0;
+            MySqlConnection connn = new MySqlConnection();
+            connn = Accesos.UnaConexion();
+            MySqlCommand cmd = new MySqlCommand(String.Format("UPDATE comitente SET idComit='{0}', nombre='{1}', domicilio='{2}', cuit='{3}', condicion='{4}' where idComit='{5}'", rep.IDCOMITENTE, rep.NOMBRE, rep.DOMICILIO, rep.CUIT, rep.CONDICION, orden), connn);
 
+            valor = cmd.ExecuteNonQuery();
+            connn.Close();
+            return valor;
+        }
 
 
 

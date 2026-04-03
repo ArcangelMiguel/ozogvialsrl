@@ -131,6 +131,18 @@
     <Compile Include="frmEstCivil.Designer.cs">
       <DependentUpon>frmEstCivil.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerfil.Designer.cs">
+      <DependentUpon>frmPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipología.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipología.Designer.cs">
+      <DependentUpon>frmTipología.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +182,12 @@
     <EmbeddedResource Include="frmEstCivil.resx">
       <DependentUpon>frmEstCivil.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPerfil.resx">
+      <DependentUpon>frmPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipología.resx">
+      <DependentUpon>frmTipología.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmUsuarios.resx">
       <DependentUpon>frmUsuarios.cs</DependentUpon>
     </EmbeddedResource>
@@ -200,6 +218,13 @@
     <None Include="Resources\loguito nuevo.png" />
     <None Include="Resources\ic-cancel_97589.ico" />
     <None Include="Resources\window_minimize_icon_194428.ico" />
+    <None Include="Resources\cruz.png" />
+    <None Include="Resources\USUARIO16.png" />
+    <None Include="Resources\SALIR16.png" />
+    <None Include="Resources\ACTUALIZAR16.png" />
+    <None Include="Resources\GUARDAR16.png" />
+    <None Include="Resources\AGREGAR.png" />
+    <None Include="Resources\CANCELAR.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

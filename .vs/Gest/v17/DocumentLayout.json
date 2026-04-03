@@ -1,12 +1,305 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|C:\\Users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|C:\\Users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmcomit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmcomit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmcomit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmcomit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmestcivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmestcivil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|C:\\Users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\clase\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|solutionrelative:clase\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|C:\\Users\\migue\\source\\repos\\ozogvialsrl\\clase\\chache\\usuariocache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|solutionrelative:clase\\chache\\usuariocache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\clase\\tipologia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|solutionrelative:clase\\tipologia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmtipolog\u00EDa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmtipolog\u00EDa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\clase\\comitente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F034C-D4BA-4697-A51D-E714D7898393}|Clase\\Clases.csproj|solutionrelative:clase\\comitente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|c:\\users\\migue\\source\\repos\\ozogvialsrl\\gest\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70562CE9-ED73-436B-9F64-A8F158B25C01}|Gest\\Gest.csproj|solutionrelative:gest\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmUsuarios.cs",
+              "RelativeDocumentMoniker": "Gest\\frmUsuarios.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmUsuarios.cs",
+              "RelativeToolTip": "Gest\\frmUsuarios.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAgwL0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:15:16.219Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmUsuarios.cs",
+              "RelativeDocumentMoniker": "Gest\\frmUsuarios.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gest\\frmUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:44:17.146Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmUsuarios.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmUsuarios.Designer.cs",
+              "RelativeDocumentMoniker": "Gest\\frmUsuarios.Designer.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmUsuarios.Designer.cs",
+              "RelativeToolTip": "Gest\\frmUsuarios.Designer.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAMwN0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T17:51:11.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmComit.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmComit.cs",
+              "RelativeDocumentMoniker": "Gest\\frmComit.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmComit.cs",
+              "RelativeToolTip": "Gest\\frmComit.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAIwAIBAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T17:50:07.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmComit.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmComit.cs",
+              "RelativeDocumentMoniker": "Gest\\frmComit.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmComit.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gest\\frmComit.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T17:50:00.824Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmEstCivil.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmEstCivil.cs",
+              "RelativeDocumentMoniker": "Gest\\frmEstCivil.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmEstCivil.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gest\\frmEstCivil.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T17:49:58.408Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmPerfil.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmPerfil.cs",
+              "RelativeDocumentMoniker": "Gest\\frmPerfil.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmPerfil.cs",
+              "RelativeToolTip": "Gest\\frmPerfil.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T17:47:57.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Clase\\Usuario.cs",
+              "RelativeDocumentMoniker": "Clase\\Usuario.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Clase\\Usuario.cs",
+              "RelativeToolTip": "Clase\\Usuario.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwCkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T16:48:36.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmMain.cs",
+              "RelativeDocumentMoniker": "Gest\\frmMain.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmMain.cs",
+              "RelativeToolTip": "Gest\\frmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T17:41:03.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmPerfil.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmPerfil.cs",
+              "RelativeDocumentMoniker": "Gest\\frmPerfil.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmPerfil.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gest\\frmPerfil.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:32:47.561Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmMain.cs",
+              "RelativeDocumentMoniker": "Gest\\frmMain.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gest\\frmMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T17:00:43.9Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmMain.Designer.cs",
+              "RelativeDocumentMoniker": "Gest\\frmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmMain.Designer.cs",
+              "RelativeToolTip": "Gest\\frmMain.Designer.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAMwM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T17:13:58.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioCache.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Clase\\Chache\\UsuarioCache.cs",
+              "RelativeDocumentMoniker": "Clase\\Chache\\UsuarioCache.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Clase\\Chache\\UsuarioCache.cs",
+              "RelativeToolTip": "Clase\\Chache\\UsuarioCache.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:44:51.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Tipologia.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Clase\\Tipologia.cs",
+              "RelativeDocumentMoniker": "Clase\\Tipologia.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Clase\\Tipologia.cs",
+              "RelativeToolTip": "Clase\\Tipologia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T14:02:31.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Comitente.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Clase\\Comitente.cs",
+              "RelativeDocumentMoniker": "Clase\\Comitente.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Clase\\Comitente.cs",
+              "RelativeToolTip": "Clase\\Comitente.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T15:19:02.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmTipolog\u00EDa.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmTipolog\u00EDa.Designer.cs",
+              "RelativeDocumentMoniker": "Gest\\frmTipolog\u00EDa.Designer.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmTipolog\u00EDa.Designer.cs",
+              "RelativeToolTip": "Gest\\frmTipolog\u00EDa.Designer.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAowOoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T16:21:51.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Gest\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\migue\\source\\repos\\ozogvialsrl\\Gest\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gest\\frmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T14:51:17.927Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

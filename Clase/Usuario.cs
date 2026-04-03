@@ -57,7 +57,7 @@ namespace Clase
         }
         public static DataTable verificaUsuario(String us, String ps)
         {
-            String cmd = "SELECT idUsuario,nombreUsuario,pass FROM usuarios WHERE nombreUsuario='" + us + "' AND pass ='" + ps + "'"; ;
+            String cmd = "SELECT idUsuario,nombreUsuario,pass,nombre,apellido,nivel,email FROM usuarios WHERE nombreUsuario='" + us + "' AND pass ='" + ps + "'"; ;
             // 
             DataSet ds = Accesos.datos(cmd);
             DataTable dt = new DataTable();

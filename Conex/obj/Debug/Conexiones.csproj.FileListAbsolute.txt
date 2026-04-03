@@ -63,3 +63,14 @@ C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Conex\obj\Debug\Cone
 C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Conex\obj\Debug\Conexiones.csproj.Up2Date
 C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Conex\obj\Debug\Conex.dll
 C:\Users\OZOG VIAL SRL\source\repos\ozogvialsrl\ozogvialsrl\Conex\obj\Debug\Conex.pdb
+C:\Users\migue\source\repos\ozogvialsrl\Conex\bin\Debug\Conex.dll
+C:\Users\migue\source\repos\ozogvialsrl\Conex\bin\Debug\Conex.pdb
+C:\Users\migue\source\repos\ozogvialsrl\Conex\bin\Debug\System.Memory.dll
+C:\Users\migue\source\repos\ozogvialsrl\Conex\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\migue\source\repos\ozogvialsrl\Conex\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\migue\source\repos\ozogvialsrl\Conex\bin\Debug\System.Buffers.dll
+C:\Users\migue\source\repos\ozogvialsrl\Conex\obj\Debug\Conexiones.csproj.AssemblyReference.cache
+C:\Users\migue\source\repos\ozogvialsrl\Conex\obj\Debug\Conexiones.csproj.CoreCompileInputs.cache
+C:\Users\migue\source\repos\ozogvialsrl\Conex\obj\Debug\Conexiones.csproj.Up2Date
+C:\Users\migue\source\repos\ozogvialsrl\Conex\obj\Debug\Conex.dll
+C:\Users\migue\source\repos\ozogvialsrl\Conex\obj\Debug\Conex.pdb

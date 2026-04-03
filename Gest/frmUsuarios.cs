@@ -5,7 +5,6 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,63 +17,49 @@ namespace Gest
         {
             InitializeComponent();
         }
-        //--------------- esta rutina es para mover con el mouse el formulario ----------
-        [DllImport("user32.dll", EntryPoint = "ReleaseCapture")]
-        private extern static void ReleaseCapture();
-        [DllImport("user32.dll", EntryPoint = "SendMessage")]
-        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
 
-        //--------------- termina la rutina ----------
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void btnGuardar_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
-            try
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUser_Enter(object sender, EventArgs e)
+        {
+            if (txtUser.Text == "Usuario")
             {
-                if (txtUser.Text == "" || txtUser.Text == "Usuario" ||
-                    txtPass.Text == "" || txtPass.Text == "Contraseña" ||
-                    txtNombre.Text == "" || txtNombre.Text == "Nombre" ||
-                    txtApellido.Text == "" || txtApellido.Text == "Apellido" ||
-                    txtCargo.Text == "" || txtCargo.Text == "Cargo" ||
-                    txtEmail.Text == "" || txtEmail.Text == "E-mail")
-                {
-                    MessageBox.Show("Alguno de los campos no tiene datos ingresados");
-                }
-                else
-                {
-                    Usuario USS = new Usuario();
-
-                    USS.NOMBREUSUARIO = txtUser.Text;
-                    USS.PASS = txtPass.Text;
-                    USS.NOMBRE = txtNombre.Text;
-                    USS.APELLIDO = txtApellido.Text;
-                    USS.NIVEL = txtCargo.Text;
-                    USS.EMAIL = txtEmail.Text;
-
-                    int usu = Usuario.guardaUsuario(USS);
-
-                    if (usu == 1)
-                    {
-                        MessageBox.Show("Los datos se han almacenado");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Verifique que los datos esten correctos. No se han almacenado");
-                    }
-                }
+                txtUser.Text = "";
+                txtUser.ForeColor = Color.LightGray;
+                // txtNombre.UseSystemPasswordChar = true;
             }
-            catch
+        }
+
+        private void txtUser_Leave(object sender, EventArgs e)
+        {
+            if (txtUser.Text == "")
             {
-                
+                txtUser.Text = "Usuario";
+                txtUser.ForeColor = Color.LightGray;
+                // txtNombre.UseSystemPasswordChar = false;
             }
         }
 
         private void txtPass_Enter(object sender, EventArgs e)
         {
-
             if (txtPass.Text == "Contraseña")
             {
                 txtPass.Text = "";
@@ -93,30 +78,13 @@ namespace Gest
             }
         }
 
-        private void txtUser_Enter(object sender, EventArgs e)
-        {
-            if (txtUser.Text == "Usuario")
-            {
-                txtUser.Text = "";
-                txtUser.ForeColor = Color.LightGray;
-            }
-        }
-
-        private void txtUser_Leave(object sender, EventArgs e)
-        {
-            if (txtUser.Text == "")
-            {
-                txtUser.Text = "Usuario";
-                txtUser.ForeColor = Color.LightGray;
-            }
-        }
-
         private void txtNombre_Enter(object sender, EventArgs e)
         {
             if (txtNombre.Text == "Nombre")
             {
                 txtNombre.Text = "";
                 txtNombre.ForeColor = Color.LightGray;
+                //txtNombre.UseSystemPasswordChar = true;
             }
         }
 
@@ -135,6 +103,7 @@ namespace Gest
             {
                 txtApellido.Text = "";
                 txtApellido.ForeColor = Color.LightGray;
+                //txtApellido.UseSystemPasswordChar = true;
             }
         }
 
@@ -153,6 +122,7 @@ namespace Gest
             {
                 txtCargo.Text = "";
                 txtCargo.ForeColor = Color.LightGray;
+                //txtApellido.UseSystemPasswordChar = true;
             }
         }
 
@@ -171,6 +141,7 @@ namespace Gest
             {
                 txtEmail.Text = "";
                 txtEmail.ForeColor = Color.LightGray;
+                //txtApellido.UseSystemPasswordChar = true;
             }
         }
 
@@ -183,18 +154,40 @@ namespace Gest
             }
         }
 
-        private void frmUsuarios_MouseDown(object sender, MouseEventArgs e)
+        private void btnGuardar_Click(object sender, EventArgs e)
         {
-            // haciendo click en el formulario, podemos moverlo para cualquier parte
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
-        }
+            if (txtNombre.Text == "Nombre" || txtNombre.Text == "" ||
+              txtApellido.Text == "Apellido" || txtApellido.Text == "" ||
+              txtUser.Text == "Usuario°" || txtUser.Text == "" ||
+              txtPass.Text == "Contraseña" || txtPass.Text == "" ||
+                   txtCargo.Text == "Cargo" || txtCargo.Text == "" ||
+                   txtEmail.Text == "E-mail" || txtEmail.Text == "")
+            {
+                MessageBox.Show("Falta cargar datos");
+            }
+            else
+            {
+                Usuario User = new Usuario();
+                User.NOMBREUSUARIO = txtUser.Text.Trim();
+                User.PASS = txtPass.Text.Trim();
+                User.NOMBRE = txtNombre.Text.Trim();
+                User.APELLIDO = txtApellido.Text.Trim();
+                User.NIVEL = txtCargo.Text.Trim();
+                User.EMAIL = txtEmail.Text.Trim();
 
-        private void panel2_MouseDown(object sender, MouseEventArgs e)
-        {
-            // haciendo click en el panel izquierdo, podemos mover el formulario para cualquier parte
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
+                int res = Usuario.guardaUsuario(User);
+
+                if (res == 1)
+                {
+                    MessageBox.Show("Datos almacenados");
+                }
+                else
+                {
+                    MessageBox.Show("Los datos no se guardaron");
+                }
+            }
+            //apertura();
+            // cargadgv();
         }
     }
 }
